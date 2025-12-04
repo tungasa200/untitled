@@ -77,9 +77,3 @@
       opacity: 1;
       transform: translateY(0);
     }
-
-    @media screen and (max-width:768px) {
-      .type-container, .final-logo {
-        font-size: 40px;
-      }
-    }
