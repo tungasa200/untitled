@@ -15,7 +15,7 @@
       justify-content: center;
       background: #ffffff;
       color: #000000;
-      font-family:"PT Serif", serif;
+      font-family:"optique-display", sans-serif;
       overflow: hidden;
     }
 
@@ -70,7 +70,12 @@
       transform: translateY(10px);
       transition: opacity 0.8s ease, transform 0.8s ease;
       pointer-events: none;
-      
+      width: 150px;
+      margin: 0 auto;
+    }
+
+    .final-logo img {
+      width: 100%;
     }
 
     .final-logo.show {
